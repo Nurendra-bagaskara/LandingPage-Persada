@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.cover {
+  background-image: url(../../image/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 84px;
+}
+.cover .box-cover {
+  padding: 144px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.cover .box-cover h1 {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.promo {
+  background-image: url(../../image/bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* margin-bottom: 84px; */
+}
+
+.promo button {
+  padding-right: 95px;
+  padding-left: 95px;
+}
+.footer img {
+  margin-bottom: 55px;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 1024px) {
+  .promo {
+    background-image: url(../../image/bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-bottom: 84px; */
+  }
+  .footer img {
+    height: 72px;
+    margin-left: 5px;
+    margin-bottom: 55px;
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover .box-cover h1 {
+    font-size: 44px;
+    font-weight: bold;
+  }
+  .promo button {
+    /* font-size: 8px; */
+    padding-right: 75px;
+    padding-left: 75px;
+  }
+  .footer img {
+    height: 62px;
+    margin-left: 5px;
+    margin-bottom: 55px;
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cover .box-cover {
+    padding: 74px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .cover .box-cover h1 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .promo h1 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .promo button {
+    font-size: 12px;
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+
+  .footer img {
+    height: 52px;
+    margin-left: 5px;
+    margin-bottom: 55px;
+    margin-top: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover .box-cover {
+    padding: 54px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .cover .box-cover h1 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .promo h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .promo button {
+    font-size: 11px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
